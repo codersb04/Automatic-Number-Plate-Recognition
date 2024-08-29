@@ -38,14 +38,14 @@
 
 ### Troubleshooting
 - Faced problem while importing the library th pytorch, steps followed to resolve the issue:
-  - create a new environment with python 3.9 using command "conda create -n number_plate_rec python=3.9"
-  - Activate the environment using "conda activate ocr-env"
-  - Install pytorch using command "conda install pytorch torchvision torchaudio cpuonly -c pytorch"
-  - Install easyOCR using command "pip install easyocr"
-  - Install ipykernel in the Environment using command "pip install ipykernel"
-  - Add the Environment to Jupyter using command "python -m ipykernel install --user --name=number_plate_rec"
+  - create a new environment with python 3.9 using command **"conda create -n number_plate_rec python=3.9"**
+  - Activate the environment using **"conda activate ocr-env"**
+  - Install pytorch using command **"conda install pytorch torchvision torchaudio cpuonly -c pytorch"**
+  - Install easyOCR using command **"pip install easyocr"**
+  - Install ipykernel in the Environment using command **"pip install ipykernel"**
+  - Add the Environment to Jupyter using command **"python -m ipykernel install --user --name=number_plate_rec"**
   - lauch jupyter notebook and go to the change kernel option in the Kernel menu, Select the kernel corresponding to the created kernel
-- In some case the same above issue comes up as 'OSError: [WinError 5] Access is denied', and can be sorted using the command: pip install easyocr --user. But for me only above steps worked. 
+- In some case the same above issue comes up as 'OSError: [WinError 5] Access is denied', and can be sorted using the command: **pip install easyocr --user**. But for me only above steps worked. 
  
 ### Future Work
 - The number detected here is not exactly proper in some cases, work to enhance the recognition</br></br>
