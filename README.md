@@ -39,7 +39,7 @@
 ### Troubleshooting
 - Faced problem while importing the library th pytorch, steps followed to resolve the issue:
   - create a new environment with python 3.9 using command **"conda create -n number_plate_rec python=3.9"**
-  - Activate the environment using **"conda activate ocr-env"**
+  - Activate the environment using **"conda activate number_plate_rec"**
   - Install pytorch using command **"conda install pytorch torchvision torchaudio cpuonly -c pytorch"**
   - Install easyOCR using command **"pip install easyocr"**
   - Install ipykernel in the Environment using command **"pip install ipykernel"**
